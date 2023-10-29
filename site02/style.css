@@ -1,0 +1,116 @@
+body{
+    background-color: greenyellow;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #011C40;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+#title{
+    background-color: purple;
+    width: 100%;
+    max-width: 500px;
+    margin-left:30px;
+}
+h1{
+    width: 100%;
+    max-width: 1300px;
+    border: 2px solid black;
+    border-radius: 3px;
+    color:black;
+    background-color:purple;
+}
+#menubotoes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-left:100px;  
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+.botoes{
+    width: 100px;
+    height: 40px;
+    background-color: purple;
+    border: 4px solid black;
+    border-radius:3px ;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+.conteiner{
+    width: 100%;
+    max-width: 1300px;
+    height: 549px;
+    margin: auto;
+    margin-top: 30px;
+    
+    background-color: black;
+}
+.texto{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: -10px;
+    width: 100%;
+    max-width: 1300px;
+    height: 512px;
+    margin: auto;
+    margin-top: -22px;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color:#011C40; 
+}
+.video{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 1300px;
+    height: 512px;
+    margin: auto;
+    margin-top: -22px;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: #011C40;
+
+}
+.cont1{
+    
+    margin:10px 10px 10px 10px;
+    border: 3px solid black;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    transform-style: preserve-3d;
+
+}
+.cont1:hover{
+    transform: rotateY(180deg);
+}
+.face{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.frente{
+    background-color: #B8CAD9;
+    transform: rotateY(-180deg);
+}
+.atras{
+    background-color: purple;
+    backface-visibility: hidden;
+}
+
+.cont2{
+    background-color: purple;
+    margin:10px 10px 10px 10px;
+    border: 3px solid black;
+    border-radius: 4px;
+}
